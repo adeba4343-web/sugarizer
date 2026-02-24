@@ -17,6 +17,10 @@ define(["sugar-web/activity/activity","sugar-web/env","filterpalette","tutorial"
 
 		// Create palette
 		var filterButton = document.getElementById("filter-button");
+		
+		// Hide filter initially until categories are available
+		filterButton.style.display = "none";
+		
 		filterpalette = new filterpalette.FilterPalette(filterButton, undefined);
 		filterpalette.addEventListener('filter', function() {
 			app.setFilter({category: filterpalette.getFilter()});
