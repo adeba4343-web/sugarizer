@@ -1,1 +1,6 @@
-
+[Activity]
+name = ConnectDots
+activity_version = 1
+bundle_id = org.sugarizer.ConnectDots
+icon = icon.svg
+exec = index.html
