@@ -1,1 +1,6 @@
-
+<svg width="55" height="55" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="10" cy="10" r="5" fill="#FF0000"/>
+  <circle cx="45" cy="10" r="5" fill="#00FF00"/>
+  <circle cx="10" cy="45" r="5" fill="#0000FF"/>
+  <circle cx="45" cy="45" r="5" fill="#FFFF00"/>
+</svg>
